@@ -1,0 +1,139 @@
+body{
+    background: #f7f7f7;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #594F4F;
+}
+.container{
+    background: white;
+    max-width: 960px;
+    margin: 60px auto;
+    -webkit-box-shadow: 0px 0px 30px 0px #999999;
+    box-shadow: 0px 0px 30px 0px #999999;
+}
+.site-title{
+	background:#45ADA8;
+	text-align:center;
+	padding:70px 0px;
+}
+
+	.site-title p{
+		color:white;
+		font-size:24px;
+		text-transform:uppercase;	
+		margin:0px;	
+	}
+
+	.site-title strong{
+		font-size:100px;
+		font-family:"Times New Roman", Times, serif;	
+		font-weight:normal;		
+		text-transform:none;
+	}
+	
+	
+nav{
+	background:#547980;
+}
+
+nav ul {
+    padding: 0px;
+    margin: auto;
+    list-style: none;
+    max-width: 70%;
+    overflow: auto;
+}
+
+nav li {
+    float: left;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 15px 40px;
+}
+
+nav a:hover {
+    background-color: #594F4F;
+}
+
+.main-content{
+    padding: 30px 30px 30px 30px;
+    overflow: auto;
+    line-height: 30px;
+    
+}
+
+.main-content h1,
+.main-content h2, 
+.main-content h3 {
+    font-family: "Times New Roman", 'Times New Roman', Times, serif;
+    font-weight: normal;
+    color: #547980;
+    text-transform: uppercase;
+}
+
+.main-content h1 {
+    font-size: 36px;
+    text-align: center;
+}
+
+.main-content a {
+    color: #547980;
+}
+.main-content .cta {
+    color: white;
+    padding: 10px 60px;
+    background-color: #594F4F;
+    text-decoration: none;
+    display: block;
+    width: 160px;
+    margin: 30px auto 60px auto;
+    text-align: center;
+}
+.main-content .cta:hover{
+    background-color: #547980;
+}
+footer {
+    background:#5e6d66;
+    padding: 40 30;
+    overflow: auto;
+}
+footer p {
+    color: white;
+    font-size: 14px;
+    padding-left: 10px;
+}
+footer img{
+    float: right;
+    padding-left: 10px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+.center {
+    text-align: center;
+}
+.floatleft {
+    float: left;
+}
+.floatright {
+    float: right;
+}
+.extrapadding{
+    padding: 0px 60px;
+}
+.paddingbottom{
+    padding-bottom: 40px;
+}
+.leftpadding{
+    padding-left: 145px;
+}
+.photorights{
+    font-size: 12px;
+    color: #A8A7A7;
+}
